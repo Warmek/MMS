@@ -10,7 +10,7 @@ Some of the technologies used in the project
 - REST API
 - HTML/CSS
 
-# How to Deploy
+# How to Deploy from source
 ## Requirements:
 - .NET >= 8.0.401
 - Entity Framework Core >= 9.0.0
@@ -23,3 +23,8 @@ Some of the technologies used in the project
 
 ## Run the web app:
 You can run the web app by executing `dotnet run` command in root directory of the project.
+
+# How to Deploy from docker
+```docker
+docker pull warmek/movie-managment-system
+```
