@@ -26,7 +26,9 @@ You can run the web app by executing `dotnet run` command in root directory of t
 
 # How to Deploy from docker
 ## Export enviroment variables 
+```bash
 export ConnectionStrings__mvcmoviecontext="[ Connection String ]"
+```
 
 ```docker
 docker pull warmek/movie-managment-system
