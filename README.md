@@ -25,6 +25,9 @@ Some of the technologies used in the project
 You can run the web app by executing `dotnet run` command in root directory of the project.
 
 # How to Deploy from docker
-```docker
+## Export enviroment variables 
+export ConnectionStrings__mvcmoviecontext="[ Connection String ]"
+
+``docker
 docker pull warmek/movie-managment-system
 ```
