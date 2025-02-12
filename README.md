@@ -18,8 +18,14 @@ Some of the technologies used in the project
 
 ## Before running
 - You should have [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) running and modify server url, username and password in [appsettings.json](appsettings.json) accordingly
-- Build migration: `dotnet ef migrations add InitialCreate`
-- Apply migration to the database: `dotnet ef database update`
+- Build migration: 
+```bash
+dotnet ef migrations add InitialCreate
+```
+- Apply migration to the database: 
+```bash
+dotnet ef database update
+```
 
 ## Run the web app:
 You can run the web app by executing `dotnet run` command in root directory of the project.
