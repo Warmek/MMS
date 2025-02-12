@@ -30,7 +30,7 @@ public static class SeedData
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters ",
+                    Title = "Ghostbusters",
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
                     Rating = "R",
