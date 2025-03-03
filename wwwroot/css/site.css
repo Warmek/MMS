@@ -16,7 +16,43 @@ html {
   position: relative;
   min-height: 100%;
 }
+body {
+    background-color: #D2ECDF; 
+}
+/* Change the text color of links */
+a {
+    color: #344E41; /* Dark blue text */
+}
+
+/* Override Bootstrap navbar background */
+.navbar-nav {
+    background-color: #E9F3EF !important;
+}
+
+/* Change text color in navbar */
+.navbar-nav a {
+    color: #5A756F !important;
+}
+
+.navbar {
+    background-color: #E9F3EF; /* Example: Blue background */
+}
+
+.navbar-text, .navbar-nav a {
+    color: #5A756F !important;
+}
+
+/* Force navbar background color */
+.navbar-light {
+    background-color: #E9F3EF !important;
+}
 
 body {
   margin-bottom: 60px;
 }
+
+// ### How to Use This Palette
+// - Use `#344E41` for your main text or header elements.
+// - Pair it with `#D2ECDF` or `#E9F3EF` for backgrounds to create contrast.
+// - Use `#5A756F` and `#758E84` for secondary text, borders, or accents.
+// - Add pops of color with `#7CB86F` in buttons or highlights.
