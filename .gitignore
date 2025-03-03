@@ -3,3 +3,4 @@ obj/*
 out/
 fix.md
 *.old
+appsettings.json
